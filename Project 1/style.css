@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    border: 16px solid #1D1E4C;
+    width: 100%;
+    background-color: #E5E5FD;
+    min-height: 100vh;
+}
+.top{
+    display: flex;
+    align-items: baseline;
+}
+.namehero h1{
+    text-align: start;
+}
+.hero img{
+    /* margin-left: 150px; */
+    border-radius: 30000px;
+}
+.top{
+    display: flex;
+    align-items: baseline;
+    margin-top: 120px;
+}
+.namehero h4{
+    text-align: end;
+}
+.content{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.heading h1{
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.bio h2{
+    margin-top:50px ;
+    margin-bottom: 20px;
+}
+ul li{
+    line-height: 25px;
+    margin-left: 30px;
+}
+.para p{
+    text-align:justify;
+}
+
+.wiki{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    text-align: end;
+
+}
+.main h4 a{
+text-decoration: none;
+
+}
