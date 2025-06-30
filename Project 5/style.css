@@ -146,15 +146,16 @@ body {
     margin: 0 auto;
 }
 
-.headingsmain2{
-width: 100%;
-height: 150px;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
+.headingsmain2 {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 
 }
+
 .bheadm2 {
     text-align: center;
     background-color: #149F39;
@@ -166,10 +167,128 @@ flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    /* margin-top: 50px; */
+
+
 }
-.bhead22{
+
+/* .menuss{
+    padding: 10px 20px;
+} */
+.bhead22 {
     font-weight: 400;
     font-size: 36px;
-    margin-top: 10px;
+    margin-top: 25px;
+}
+
+.menu {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+/* Base styles */
+.mitems {
+    overflow: hidden;
+}
+
+.mitems img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/* Grid positions & heights matching the image */
+.mitems1 {
+    grid-column: span 2;
+    grid-row: span 2;
+    height: 450px;
+}
+
+.mitems2 {
+    grid-column: span 1;
+    grid-row: span 2;
+    height: 450px;
+}
+
+.mitems3 {
+    grid-column: span 1;
+    height: 215px;
+}
+
+.mitems4 {
+    grid-column: span 1;
+    height: 215px;
+}
+
+.mitems5 {
+    grid-column: span 1;
+    height: 215px;
+}
+
+.mitems6 {
+    grid-column: span 1;
+    height: 215px;
+}
+
+.mitems7 {
+    grid-column: span 2;
+    height: 215px;
+}
+
+.footer {
+    background-color: #FFF0DB;
+    height: 322px;
+    width: 100%;
+}
+
+.innerfoot {
+    height: 322px;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footlogo img {
+    /* position: relative; */
+    width: 201px;
+    height: 76px;
+    /* left: 227px; */
+}
+.footlogo {
+    margin-top: 50px;
+}
+ul li{
+    list-style: none;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 300;
+    color: #565656;
+
+}
+.h3mar{
+    margin-top: 50px;
+}
+.h3col{
+    color: #565656;
+}
+.h3style{
+    margin-bottom: 20px;
+    color: #565656;
+}
+.news h3{
+    margin-bottom: 15px;
+}
+.inputemail{
+    margin-bottom: 15px;
+    width: 265px;
+    height: 24px;
+    border:1px solid grey;
+}
+.social img{
+    margin: 0 10px;
 }
