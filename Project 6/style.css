@@ -13,18 +13,16 @@ html {
     line-height: 1.4;
     scroll-behavior: smooth;
 }
-body{
-    height: 200vh;
-}
 
 nav {
-    position:sticky;
+    position: sticky;
     background-color: #270082;
     height: 55px;
     color: white;
     width: 100%;
     top: 0;
     z-index: 100;
+    box-shadow: -3px 5px 15px black;
 }
 
 .innernav {
@@ -46,4 +44,70 @@ ul {
 
 nav ul li {
     list-style: none;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 29px;
+}
+
+.hero {
+    background-image: url(./assets/images/top.jpg);
+    max-width: 1440px;
+    height: 100vh;
+    /* background-clip: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    color: white;
+}
+
+.heroinner {
+    max-width: 1440px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
+}
+
+.heroinner h1 {
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+}
+
+.heroinner h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 100%;
+}
+
+.heroinner p {
+    text-align: center;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 29px;
+}
+
+.musicb {
+    width: 100%;
+    height: 100vh;
+    background-color: #270082;
+    color: white;
+}
+
+.inmusic svg {
+    height: 30px;
+    width: 30px;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: white;
+}
+.inmusic{
+    color: white;
+    display: flex;
+    align-items: self-end;
+    gap: 2px;
 }
