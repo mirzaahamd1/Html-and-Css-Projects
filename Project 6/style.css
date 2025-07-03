@@ -96,14 +96,17 @@ nav ul li {
     height: 100vh;
     background-color: #270082;
     color: white;
+    text-align: center;
 }
 
 .inmusic svg {
+    position: absolute;
     height: 30px;
     width: 30px;
     fill-rule: evenodd;
     clip-rule: evenodd;
     fill: white;
+    left: 44%;
 }
 .inmusic{
     color: white;
